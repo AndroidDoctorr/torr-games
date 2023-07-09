@@ -1,0 +1,28 @@
+body {
+  background-color: black;
+  margin: 0;
+  overflow: hidden;
+}
+
+canvas {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+
+h1.title {
+  color: white;
+  position: absolute;
+  top: 60%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.center {
+  position: absolute;
+  text-align: center;
+  top: 4rem;
+  z-index: 1;
+  width: 100vw;
+}
