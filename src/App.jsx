@@ -102,11 +102,12 @@ function App() {
       <div className="container">
       <div className="row">
         <div className="column">
+          <a href="https://store.steampowered.com/app/2216560/Bubble_Siege/">
           <h2 className='centerText'>
             Bubble Siege
             <img className='game-thumb' src={bsIcon}></img>
           </h2>
-          
+          </a>
         </div>
         <div className="column">
           <h2 className='centerText'>
