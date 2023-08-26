@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { generateDiskPoints, projectTo2D, rotateDisks } from './utils/geometry.js'
 import './App.css'
-const bsIcon = require('./assets/bs-thumb.png')
+const bsIcon = require('../public/assets/bs-thumb.png')
 
 function App() {
   const [count, setCount] = useState(0)
