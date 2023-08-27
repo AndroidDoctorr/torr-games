@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import { generateDiskPoints, projectTo2D, rotateDisks } from './utils/geometry.js'
-import './App.css'
 import bsThumb from '/assets/bs-thumb.png'
 import pcThumb from '/assets/pc-thumb.png'
 import elThumb from '/assets/el-thumb.png'
@@ -101,9 +100,6 @@ function App() {
   var intervalId = setInterval(rotateAndDraw, 10);
   return (
     <>
-      <h1 className='title'>
-        Torr Games
-      </h1>
       <div className="container">
       <div className="row">
         <div className="column">
