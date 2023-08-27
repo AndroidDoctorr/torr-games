@@ -2,6 +2,8 @@ import { useState } from 'react'
 import { generateDiskPoints, projectTo2D, rotateDisks } from './utils/geometry.js'
 import './App.css'
 import bsThumb from '/assets/bs-thumb.png'
+import psThumb from '/assets/ps-thumb.png'
+import elThumb from '/assets/el-thumb.png'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -115,7 +117,13 @@ function App() {
           </h2>
           <h3 className='centerText'>{"(Coming soon)"}</h3>
         </div>
-        <div className="column"></div>
+        <div className="column">
+        <h2 className='centerText'>
+            Elements
+            <img className='game-thumb' src={elThumb}></img>
+          </h2>
+          <h3 className='centerText'>{"(Coming soon)"}</h3>
+        </div>
       </div>
       <div className="row">
         <div className="column"></div>
