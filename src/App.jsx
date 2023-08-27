@@ -2,8 +2,11 @@ import { useState } from 'react'
 import { generateDiskPoints, projectTo2D, rotateDisks } from './utils/geometry.js'
 import './App.css'
 import bsThumb from '/assets/bs-thumb.png'
-import psThumb from '/assets/ps-thumb.png'
+import pcThumb from '/assets/pc-thumb.png'
 import elThumb from '/assets/el-thumb.png'
+import rageThumb from '/assets/rage-thumb.png'
+import umbraThumb from '/assets/umbra-thumb.png'
+import msThumb from '/assets/ms-thumb.png'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -114,11 +117,12 @@ function App() {
         <div className="column">
           <h2 className='centerText'>
             Modular Space
+            <img className='game-thumb' src={msThumb}></img>
           </h2>
           <h3 className='centerText'>{"(Coming soon)"}</h3>
         </div>
         <div className="column">
-        <h2 className='centerText'>
+          <h2 className='centerText'>
             Elements
             <img className='game-thumb' src={elThumb}></img>
           </h2>
@@ -126,9 +130,27 @@ function App() {
         </div>
       </div>
       <div className="row">
-        <div className="column"></div>
-        <div className="column"></div>
-        <div className="column"></div>
+        <div className="column">
+          <h2 className='centerText'>
+            Umbra
+            <img className='game-thumb' src={umbraThumb}></img>
+          </h2>
+          <h3 className='centerText'>{"(Coming soon)"}</h3>
+        </div>
+        <div className="column">
+          <h2 className='centerText'>
+            Perlin City Skycar
+            <img className='game-thumb' src={pcThumb}></img>
+          </h2>
+          <h3 className='centerText'>{"(Coming soon)"}</h3>
+        </div>
+        <div className="column">
+          <h2 className='centerText'>
+            RAGE
+            <img className='game-thumb' src={rageThumb}></img>
+          </h2>
+          <h3 className='centerText'>{"(Coming soon)"}</h3>
+        </div>
       </div>
     </div>
     </>
